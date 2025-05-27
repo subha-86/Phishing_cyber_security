@@ -1,4 +1,4 @@
-#Sample Phishing Email with Full Header(HTML format):
+**Sample Phishing Email with Full Header(HTML format):**
 
 Return-Path: <security-alert@paypalsecurity.com>
 Received: from unknown (HELO mail.paypalsecurity.com) (192.0.2.50)
