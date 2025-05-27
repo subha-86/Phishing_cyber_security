@@ -42,4 +42,10 @@ Link in email: http://paypa1.com/verify   --    The domain paypa1.com uses the n
 
 # Look for urgent or threatening language in the email body
 Phrases like “please click here to verify your identity immediately” and “your account will be permanently limited” create a sense of urgency and pressure the recipient to act without thinking.
+
+# Note any mismatched URLs (hover to see real link)
 The clickable text says “click here to verify your identity”, but hovering reveals the URL http://paypa1.com/verify — a domain unrelated to PayPal.
+
+# Verify presence of spelling or grammar errors
+The email is well-written, but the domain spoofing compensates for the lack of obvious spelling errors.
+
