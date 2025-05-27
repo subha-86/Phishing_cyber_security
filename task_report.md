@@ -1,10 +1,10 @@
-Objective:
+# Objective:
 Identify phishing characteristics in a suspicious email sample.
 
-Description:
+# Description:
 A phishing email is a deceptive message designed to trick the recipient into revealing sensitive information by posing as a legitimate entity.
 
-Steps:
+# Steps:
 
 1. Sample Email Acquisition
 A phishing email sample was obtained from publicly available online sources for the purpose of analysis.
