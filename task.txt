@@ -1,0 +1,33 @@
+#Sample Phishing Email with Full Header(HTML format):
+
+Return-Path: <security-alert@paypalsecurity.com>
+Received: from unknown (HELO mail.paypalsecurity.com) (192.0.2.50)
+    by mail.receiverdomain.com with SMTP; Mon, 26 May 2025 08:15:43 +0000
+Received-SPF: fail (mail.receiverdomain.com: domain of paypal.com does not designate 192.0.2.50 as permitted sender)
+Authentication-Results: mail.receiverdomain.com;
+    spf=fail smtp.mailfrom=paypal.com;
+    dkim=none;
+    dmarc=fail action=reject header.from=paypal.com
+From: "PayPal Support" <security-alert@paypalsecurity.com>
+To: victim@example.com
+Subject: Urgent: Your PayPal Account Has Been Limited
+Date: Mon, 26 May 2025 08:14:00 +0000
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+<body>
+<p>Dear Customer,</p>
+
+<p>We detected suspicious activity on your PayPal account. To secure your account, please <a href="http://paypa1.com/verify">click here to verify your identity</a> immediately.</p>
+
+<p>If you do not verify within 24 hours, your account will be permanently limited.</p>
+
+<p>Thank you for your prompt attention.</p>
+
+<p>Regards,<br>PayPal Support Team</p>
+
+</body>
+</html>
+
