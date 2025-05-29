@@ -18,6 +18,11 @@ Once the user submits their information, it is immediately captured by the attac
 # Procedure:
 To identify phishing characteristics in a suspicious email, one should first obtain a sample email from a reliable source. The sender’s email address must be examined meticulously for signs of spoofing or domain inconsistencies. Subsequently, the email headers should be analyzed using an appropriate online tool to verify authentication protocols such as SPF, DKIM, and DMARC; failure in these checks often indicates fraudulent activity. It is essential to inspect all embedded links by hovering to reveal their actual URLs, noting any discrepancies or suspicious domains, and to exercise caution when handling attachments. The language and tone of the email should be evaluated for urgency or threats intended to coerce immediate action. Additionally, attention must be paid to spelling and grammatical errors, which frequently occur in phishing communications. Finally, a comprehensive summary of identified phishing indicators should be prepared to assess potential risks and inform appropriate mitigation measures.
 
+# tools used for Phishing attack:
+* kali
+* setoolkit(inbuilt)
+* html for web templates if needed
+
 
 
 
